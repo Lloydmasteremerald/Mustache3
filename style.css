@@ -1,0 +1,33 @@
+#h3:hover
+{
+    background-image: linear-gradient(#00ff44, #00bfff, #ff0000);
+    width: 185px;
+    height: 45px;
+}
+
+#h3,.btn-success
+{
+    width: 180px;
+    height: 45px;
+}
+
+
+.btn-success:hover
+{
+    background-image: linear-gradient(#00ff44, #00bfffed, #ffdd00);
+    width: 180px;
+    height: 45px;
+}
+
+canvas
+{
+    animation-name: Jay ;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Jay
+{
+    from{box-shadow: 12px 12px 100px rgb(255, 0, 0);}
+    to{box-shadow: 50px 50px 100px rgb(0, 110, 255);}
+}
